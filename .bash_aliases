@@ -11,10 +11,9 @@ alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
 alias v="vim"
 alias s="startx"
 
-# maybe not necessary? test.
-#source /usr/share/bash-completion/completions/git
-#__git_complete g __git_main
-#alias g="git"
+source /usr/share/bash-completion/completions/git
+__git_complete g __git_main
+alias g="git"
 
 alias gf="git fetch"
 alias gs="git status"

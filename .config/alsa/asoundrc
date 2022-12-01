@@ -1,4 +1,0 @@
-# Thelio has two sound cards and the first (and default) is for HDMI output
-# Need to set the default to the second card for sound to work outside of HDMI
-defaults.pcm.card 1
-defaults.ctl.card 1

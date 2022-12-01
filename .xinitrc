@@ -50,4 +50,6 @@ fi
 
 [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
+spice-vdagent
+
 exec i3

@@ -9,7 +9,7 @@ alias ......="cd ../../../../.. && ll"
 alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
 
 alias s="startx"
-alias set-xrandr="xrandr --output Virtual-1 --auto"
+alias setxrandr="xrandr --output Virtual-1 --auto"
 alias v="vim"
 
 source /usr/share/bash-completion/completions/git

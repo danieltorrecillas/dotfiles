@@ -11,8 +11,15 @@ general {
         interval = 5
 }
 
+order += "memory"
 order += "volume master"
 order += "tztime local"
+
+memory {
+        format = "%used | %available"
+        threshold_degraded = "1G"
+        format_degraded = "MEMORY < %available"
+}
 
 volume master {
         format = "♪: %volume"

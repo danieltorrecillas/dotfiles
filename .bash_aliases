@@ -11,6 +11,7 @@ alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
 alias s="startx"
 alias setxrandr="xrandr --output Virtual-1 --auto"
 alias v="vim"
+alias p="sudo poweroff"
 
 source /usr/share/bash-completion/completions/git
 __git_complete g __git_main

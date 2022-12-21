@@ -10,6 +10,7 @@ alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
 
 alias s="startx"
 alias setxrandr="xrandr --output Virtual-1 --auto"
+alias mountfromhost="sudo mount -t 9p -o trans=virtio share mount-from-host/ -oversion=9p2000.L"
 alias v="vim"
 alias p="sudo poweroff"
 

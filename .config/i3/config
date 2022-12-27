@@ -200,3 +200,5 @@ bar {
 }
 
 workspace_layout tabbed
+
+bindsym $mod+x exec "xrandr --output Virtual-1 --auto"

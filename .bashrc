@@ -43,6 +43,8 @@ else
 fi
 unset color_prompt force_color_prompt
 
+if [ -n "$RANGER_LEVEL" ]; then export PS1="[ranger]$PS1"; fi
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi

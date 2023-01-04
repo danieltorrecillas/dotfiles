@@ -5,6 +5,7 @@ alias ...="cd ../.. && ll"
 alias ....="cd ../../.. && ll"
 alias .....="cd ../../../.. && ll"
 alias ......="cd ../../../../.. && ll"
+alias gd="cd ~/Development/git && ll"
 
 alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
 

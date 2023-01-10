@@ -153,4 +153,15 @@ if has('langmap') && exists('+langremap')
   set nolangremap
 endif
 
-:set number
+set clipboard=unnamedplus
+set number
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set cursorline
+set showmatch
+set hlsearch
+let mapleader = ","
+" turn off search highlight
+nnoremap <leader><space> :nohlsearch<CR>
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

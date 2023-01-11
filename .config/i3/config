@@ -191,7 +191,7 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-for_window [class="scratchpadvim"] move window to scratchpad, scratchpad show
+for_window [class="scratchpadvim"] move window to scratchpad, scratchpad show, resize set 800 600, move position center
 
 bindsym $mod+r mode "resize"
 bindsym $mod+p [class="scratchpadvim"] scratchpad show

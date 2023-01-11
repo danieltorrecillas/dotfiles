@@ -10,6 +10,7 @@ alias gd="cd ~/Development/git && ll"
 alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
 
 alias s="startx"
+alias scratchpadvim="nohup alacritty --class scratchpadvim -e vim >/dev/null 2> /dev/null &"
 alias r="ranger"
 alias v="vim"
 alias p="sudo poweroff"

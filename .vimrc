@@ -161,6 +161,7 @@ set shiftwidth=2
 set cursorline
 set showmatch
 set hlsearch
+set shm+=I
 let mapleader = ","
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>

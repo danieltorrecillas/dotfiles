@@ -1,1 +1,5 @@
 @theme "/usr/share/rofi/themes/Arc.rasi"
+
+configuration {
+  font: "mono 18";
+}

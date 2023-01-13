@@ -1,5 +1,17 @@
+configuration {
+  font: "mono 16";
+}
+
 @theme "/usr/share/rofi/themes/Arc.rasi"
 
-configuration {
-  font: "mono 18";
+window {
+  width: 20%;
+}
+
+element {
+  spacing: 10px;
+}
+
+element-icon {
+  size: 1em;
 }

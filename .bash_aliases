@@ -9,7 +9,7 @@ alias gd="cd ~/Development/git && ll"
 
 alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
 
-alias s="startx"
+alias s="startx -- -keeptty >~/.local/share/xorg/xorg-stdout-stderr.log 2>&1"
 alias setxrandr="xrandr --output Virtual-1 --auto"
 alias mountfromhost="sudo mount -t 9p -o trans=virtio share /mnt -oversion=9p2000.L"
 alias scratchpadvim="nohup alacritty --class scratchpadvim -e vim >/dev/null 2> /dev/null &"

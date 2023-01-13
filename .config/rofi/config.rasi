@@ -1,6 +1,6 @@
 configuration {
   font: "mono 16";
-  display-run: "";
+  display-drun: "";
 }
 
 @theme "/usr/share/rofi/themes/Arc.rasi"

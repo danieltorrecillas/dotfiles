@@ -196,6 +196,7 @@ for_window [class="scratchpadvim"] move window to scratchpad, scratchpad show, r
 
 bindsym $mod+r mode "resize"
 bindsym $mod+p [class="scratchpadvim"] scratchpad show
+bindcode 202 exec flameshot gui
 
 # Resize display resolution on i3 startup
 exec --no-startup-id "xrandr --output Virtual-1 --auto"

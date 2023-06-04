@@ -195,5 +195,9 @@ for_window [class="scratchpadvim"] move window to scratchpad, scratchpad show, r
 
 bindsym $mod+r mode "resize"
 bindsym $mod+p [class="scratchpadvim"] scratchpad show
+bindsym Print exec flameshot gui
+bindsym $mod+n exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
+workspace_auto_back_and_forth yes
+bindsym $mod+Tab workspace back_and_forth
 
 exec_always --no-startup-id $XDG_CONFIG_HOME/polybar/launch.sh

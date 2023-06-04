@@ -153,7 +153,6 @@ if has('langmap') && exists('+langremap')
   set nolangremap
 endif
 
-set clipboard=unnamedplus
 set number
 set expandtab
 set tabstop=2

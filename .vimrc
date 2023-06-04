@@ -165,3 +165,5 @@ let mapleader = ","
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+:set splitright
+:set splitbelow

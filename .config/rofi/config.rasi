@@ -1,5 +1,5 @@
 configuration {
-  font: "mono 16";
+  font: "Noto Sans 16";
   display-drun: "";
 }
 

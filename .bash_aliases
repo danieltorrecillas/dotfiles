@@ -34,3 +34,7 @@ open() {
   xdg-open "$@"
 }
 
+rename-to-lower-and-hyphens() {
+  mv -i "$@" "$(echo "$@" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')"
+}
+

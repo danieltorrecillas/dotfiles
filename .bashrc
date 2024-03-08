@@ -55,3 +55,5 @@ bind -m vi-command 'Control-l clear-screen'
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+fortune -e | cowsay -f moose

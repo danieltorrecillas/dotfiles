@@ -14,6 +14,7 @@ alias swap="setxkbmap -option caps:swapescape"
 alias scratchpadvim="nohup alacritty --class scratchpadvim -e vim >/dev/null 2> /dev/null &"
 alias r="ranger"
 alias v="vim"
+alias calc="rofi -show calc -modi calc -no-show-match -no-sort -automatic-save-to-history"
 alias p="sudo poweroff"
 
 source /usr/share/bash-completion/completions/git

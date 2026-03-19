@@ -51,6 +51,8 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+. /usr/share/nvm/init-nvm.sh
+
 bind -m vi-command 'Control-l clear-screen'
 
 export VISUAL=vim

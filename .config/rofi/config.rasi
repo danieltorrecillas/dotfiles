@@ -3,7 +3,7 @@ configuration {
   display-drun: "";
 }
 
-@theme "/usr/share/rofi/themes/Arc.rasi"
+@theme "~/.config/rofi/current-theme.rasi"
 
 window {
   width: 20%;
